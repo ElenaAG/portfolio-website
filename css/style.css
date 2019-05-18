@@ -2,6 +2,34 @@
 Colors used:
 Primary Color: #ff0055;
 */
+
+header {
+  background-color: #ffb7d1;
+  padding: 10px 5px 15px 5px;
+  margin: 0 auto;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+#hero p {
+  text-align: center; /* Centers text */
+}
+
 body {
   background-color: #f7f7f7;
   font-family: 'Montserrat', sans-serif;
