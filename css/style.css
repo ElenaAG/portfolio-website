@@ -3,15 +3,17 @@ Colors used:
 Primary Color: #ff0055;
 */
 
-* {
-  box-sizing: border-box;
-}
-
 header {
   background-color: #ffb7d1;
-  padding: 10px 5px 15px 5px;
-  margin: 0 auto;
-  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 3px solid #990033;
+  position: fixed;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -21,15 +23,28 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #18121b;
+  display: inline-block;
+}
+
+footer {
+  background-color: #ffb7d1;
+  text-align: center;
+  padding: 10px 50px;
+  border: 1px solid #990033;
+  position: static;
+}
+
+main {
+  padding-top: 150px;
 }
 
 h1, h2, h3, h4 {
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 2.75em;
+  font-size: 2.50em;
   font-weight: 700;
 }
 
@@ -67,8 +82,8 @@ a:active { /* selected link */
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #ff0055;
   color: #f7f7f7 !important; /* needed to override the default link color */
-  padding: 10px 20px;
-  border-radius: 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
   border-bottom: 3px solid #18121b; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
@@ -80,22 +95,60 @@ a:active { /* selected link */
 .button.contact {
   background-color: transparent;
   color: #ff0055 !important;
-  text-transform: uppercase;
+  text-transform: lowercase;
   border: 2px solid #ff0055;
 }
 
 img {
-  height: auto;
+  height: 100%;
+  width: 100%;
+  float: left, right;
 }
 
 .container {
-  padding: 0 30px;
+  padding: 0 10px;
+  /*max-width: 1200px;*/
 }
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
+.logo {
+  max-width: 350px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
 #hero {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+#hero h1 {
+  margin-bottom: -5px;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px
+  solid #18121b; }
+
+#project h2 {
   text-align: center;
 }
