@@ -12,10 +12,11 @@
   <title>Elena's Portfolio</title>
 </head>
 
-<body>
+<body id="about-page">
   <header>
     <div class="container">
-      <img src="img/logo.png" alt="ElenaAlvarez" class="logo">
+      <!--<img src="img/logo.png" alt="ElenaAlvarez" class="logo">-->
+      <a href="index.html"><img src="img/logo.png" alt="ElenaAlvarez" class="logo"></a>
       <nav>
         <ul>
           <li><a href="index.html">Projects</a></li>
@@ -27,25 +28,27 @@
   </header>
 
   <main>
-    <div id="hero" class="container">
-      <!--page name-->
-      <div>
-        <h1>Get to know me!</h1>
+    <div id="hero">
+      <div class="container">
+        <!--page name-->
+        <div>
+          <h1>Get to know me!</h1>
+        </div>
       </div>
     </div>
 
     <div>
       <!--content-->
       <div>
-        <picture>
-          <source srcset="img/About/Profile@2.jpg" media="(max-width:767px)">
-          <img src="img/About/Profile@1.jpg" alt="Profile">
+        <picture class="row">
+          <source srcset="img/About/Profile@2.jpg">
+          <img src="img/About/Profile@1.jpg" alt="Profile" width="500" height="600">
         </picture>
 
-        <div>
-          <!--row for columns-->
-          <div>
-            <!--column1: My Story-->
+        <div> <!--row for columns-->
+
+          <div class="row"> <!--column1: My Story-->
+
             <h2>My Story</h2>
             <p>
               Hi! My name is Elena. I’m a very enthusiastic person who loves to learn from everything that surrounds me. I believe in the idea that every new day can bring us new experiences and I’m always willing to do/try new things.
@@ -62,13 +65,12 @@
             <a href="files/CV.pdf" class="button" target="_blank">Click to see my resume</a>
           </div>
 
-          <div>
-            <!--column2-->
+          <div class="row"> <!--column2-->
+
             <h2>Skills & Tools</h2>
 
-
             <div>
-              <div>
+              <div class="column col-md-6 col-lg-7">
                 <h3>Relevant Skills</h3>
                 <ul>
                   <li>Research</li>
@@ -79,7 +81,7 @@
                 </ul>
               </div>
 
-              <div>
+              <div class="column col-md-6 col-lg-7">
                 <h3>Tools used</h3>
                 <ul>
                   <li>InVision</li>
@@ -109,7 +111,7 @@
         <a href="https://www.linkedin.com/in/elena-gelaz/"><i class="fab fa-linkedin"></i> Linkedin profile</a>
       </div>
       <p>
-        © Copyright's 2019-2019 <span>All rights reserved.</span>
+        © Copyright's 2019-2019. All rights reserved.
       </p>
     </div>
   </footer>
