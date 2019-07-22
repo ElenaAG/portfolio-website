@@ -37,17 +37,20 @@
       </div>
     </div>
 
-    <div>
+    <div id="about">
       <!--content-->
-      <div>
-        <picture class="row">
-          <source srcset="img/About/Profile@2.jpg">
-          <img src="img/About/Profile@1.jpg" alt="Profile" width="500" height="600">
-        </picture>
+      <div class="container">
+        <div class="center">
+          <picture class="about">
+            <source srcset="img/About/Profile@2.jpg">
+            <img src="img/About/Profile@1.jpg" alt="Profile">
+          </picture>
+        </div>
+        <div class="row">
+          <!--row for columns-->
 
-        <div> <!--row for columns-->
-
-          <div class="row"> <!--column1: My Story-->
+          <div class="column col-md-6 col-lg-7">
+            <!--column1: My Story-->
 
             <h2>My Story</h2>
             <p>
@@ -65,12 +68,13 @@
             <a href="files/CV.pdf" class="button" target="_blank">Click to see my resume</a>
           </div>
 
-          <div class="row"> <!--column2-->
+          <div class="column col-md-6 col-lg-5">
+            <!--column2-->
 
             <h2>Skills & Tools</h2>
 
-            <div>
-              <div class="column col-md-6 col-lg-7">
+            <div class="row">
+              <div class="column col-md-6 col-lg-6">
                 <h3>Relevant Skills</h3>
                 <ul>
                   <li>Research</li>
@@ -81,7 +85,7 @@
                 </ul>
               </div>
 
-              <div class="column col-md-6 col-lg-7">
+              <div class="column col-md-6 col-lg-6">
                 <h3>Tools used</h3>
                 <ul>
                   <li>InVision</li>
@@ -105,7 +109,7 @@
     <div class="container">
       <h2>Get in Touch</h2>
       <p>
-        If you want to know me better, call me at <a href="tel:+34636930932"><b>+34 636 93 09 32</b></a> or <a href="elena.alvarez.gelaz@gmail.com" class="button contact">Send me an email</a>
+        If you want to know me better, call me at <span><a href="tel:+34636930932">+34 636 93 09 32</a> or </span><span><a href="elena.alvarez.gelaz@gmail.com" class="button contact">Send me an email</span></a>
       </p>
       <div>
         <a href="https://www.linkedin.com/in/elena-gelaz/"><i class="fab fa-linkedin"></i> Linkedin profile</a>
@@ -115,7 +119,7 @@
       </p>
     </div>
   </footer>
-<script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
