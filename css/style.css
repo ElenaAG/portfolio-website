@@ -107,6 +107,7 @@ a:active {
   color: #ff0055 !important;
   text-transform: lowercase;
   border: 2px solid #ff0055;
+  margin-top: 5px;
 }
 
 .container {
@@ -140,6 +141,9 @@ a:active {
 
 img {
   width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav>ul {
@@ -181,16 +185,15 @@ nav>ul>li>a {
 }
 
 .navtoggle.responsive nav {
-  padding: 15px 0 0;
+  padding: 24px 0 0;
 }
-
-/.navtoggle.responsive li {
+.navtoggle.responsive li  {
   display: block;
-  padding: 5px 0;
-  border-top: 1px solid rgba(255, 127, 80, 0.5);
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,0,85,1);
 }
 
-.navtoggle.responsive li:last-child {
+.navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
 }
 
@@ -308,12 +311,21 @@ Medium devices (640px and larger)
     font-size: 15px;
   }
 
+  img {
+    width: 100%;
+    max-width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #about-page h3 {
     margin-top: 0px;
   }
 
   .logo {
     max-width: 300px;
+    display: inline;
   }
 
   .col-md-6 {
