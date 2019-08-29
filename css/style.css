@@ -8,6 +8,7 @@ header {
   padding: 10px 0px;
   border-bottom: 3px solid #990033;
   position: fixed;
+
 }
 
 * {
@@ -348,7 +349,7 @@ Medium devices (640px and larger)
 
 /* ==============================
 Large devices (1024px or larger)
-================================= */
+================================= *//*
 @media only screen and (min-width: 1024px) {
   header {
     text-align: unset;
@@ -364,7 +365,7 @@ Large devices (1024px or larger)
   }
 
   .col-lg-7 {
-    width: 58.33%%;
+    width: 58.33%;
   }
 
   .container {
@@ -373,8 +374,4 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 }
-
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {}
+*/
